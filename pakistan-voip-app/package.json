@@ -1,0 +1,20 @@
+{
+  "name": "pakcall-voip",
+  "version": "1.0.0",
+  "description": "Localphone-inspired sub-5p/min Pakistan VoIP Dialer with WebRTC SIP, Wholesale Least-Cost Routing, UK Local Access Numbers (0203), and Callback",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "test": "node --test tests/voip.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
